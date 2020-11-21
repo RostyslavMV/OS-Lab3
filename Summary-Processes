@@ -1,0 +1,76 @@
+Time: 0
+User Id: 0
+Process: 0, user Id: 0 registered... (591 100 0)
+Process: 0, user Id: 0 I/O blocked... (591 100 100 100)
+Process: 2, user Id: 0 registered... (305 30 0)
+Process: 2, user Id: 0 I/O blocked... (305 30 30 30)
+Process: 0, user Id: 0 registered... (591 100 100)
+Process: 0, user Id: 0 I/O blocked... (591 100 200 200)
+Process: 2, user Id: 0 registered... (305 30 30)
+Process: 2, user Id: 0 I/O blocked... (305 30 60 60)
+Process: 0, user Id: 0 registered... (591 100 200)
+Process: 0, user Id: 0 I/O blocked... (591 100 300 300)
+Process: 2, user Id: 0 registered... (305 30 60)
+Process: 2, user Id: 0 I/O blocked... (305 30 90 90)
+Process: 0, user Id: 0 registered... (591 100 300)
+Process: 0, user Id: 0 I/O blocked... (591 100 400 400)
+Process: 2, user Id: 0 registered... (305 30 90)
+Process: 2, user Id: 0 I/O blocked... (305 30 120 120)
+Process: 0, user Id: 0 registered... (591 100 400)
+Process: 0, user Id: 0 blocked by changing user... (591 100 435)
+
+Time 555
+Change user 0 to 1
+Process: 1, user Id: 1 registered... (591 500 0 0)
+Process: 1, user Id: 1 I/O blocked... (591 500 500 500)
+Process: 3, user Id: 1 registered... (305 200 0)
+Process: 3, user Id: 1 blocked by changing user... (305 200 55)
+
+Time 1110
+Change user 1 to 2
+Process: 4, user Id: 2 registered... (305 100 0 0)
+Process: 4, user Id: 2 I/O blocked... (305 100 100 100)
+Waiting for process unblocking... User Id: 2 Process Id: 4
+Process: 4, user Id: 2 registered... (305 100 100)
+Process: 4, user Id: 2 I/O blocked... (305 100 200 200)
+Waiting for process unblocking... User Id: 2 Process Id: 4
+Process: 4, user Id: 2 registered... (305 100 200)
+Process: 4, user Id: 2 I/O blocked... (305 100 300 300)
+Waiting for process unblocking... User Id: 2 Process Id: 4
+Process: 4, user Id: 2 registered... (305 100 300)
+Process: 4, user Id: 2 completed... (305 100 305 305)
+
+Time 1665
+Change user 2 to 0
+Process: 2, user Id: 0 registered... (305 30 120 120)
+Process: 2, user Id: 0 I/O blocked... (305 30 150 150)
+Process: 0, user Id: 0 registered... (591 100 435)
+Process: 0, user Id: 0 I/O blocked... (591 100 500 500)
+Process: 2, user Id: 0 registered... (305 30 150)
+Process: 2, user Id: 0 I/O blocked... (305 30 180 180)
+Process: 0, user Id: 0 registered... (591 100 500)
+Process: 0, user Id: 0 completed... (591 100 591 591)
+Process: 2, user Id: 0 registered... (305 30 180 180)
+Process: 2, user Id: 0 I/O blocked... (305 30 210 210)
+Waiting for process unblocking... User Id: 0 Process Id: 2
+Process: 2, user Id: 0 registered... (305 30 210)
+Process: 2, user Id: 0 I/O blocked... (305 30 240 240)
+Waiting for process unblocking... User Id: 0 Process Id: 2
+Process: 2, user Id: 0 registered... (305 30 240)
+Process: 2, user Id: 0 I/O blocked... (305 30 270 270)
+Waiting for process unblocking... User Id: 0 Process Id: 2
+Process: 2, user Id: 0 registered... (305 30 270)
+Process: 2, user Id: 0 I/O blocked... (305 30 300 300)
+Waiting for process unblocking... User Id: 0 Process Id: 2
+Process: 2, user Id: 0 registered... (305 30 300)
+Process: 2, user Id: 0 completed... (305 30 305 305)
+
+Time 2220
+Change user 0 to 1
+Process: 1, user Id: 1 registered... (591 500 500 500)
+Process: 1, user Id: 1 completed... (591 500 591 591)
+Process: 3, user Id: 1 registered... (305 200 55 55)
+Process: 3, user Id: 1 I/O blocked... (305 200 200 200)
+Waiting for process unblocking... User Id: 1 Process Id: 3
+Process: 3, user Id: 1 registered... (305 200 200)
+Process: 3, user Id: 1 completed... (305 200 305 305)
